@@ -13,7 +13,14 @@ public class Calculator {
 	}
 	
 	public int divide(int a, int b) {
-		return a/b;
+		
+		if( a == 0 || b == 0) {
+			return 0;
+		}
+		else {
+			return a/b;
+		}
+		
 	}
 
 }
